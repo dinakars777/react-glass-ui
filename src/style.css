@@ -1,0 +1,51 @@
+:root {
+    /* Glass Colors */
+    --glass-bg-light: rgba(255, 255, 255, 0.1);
+    --glass-bg-base: rgba(255, 255, 255, 0.15);
+    --glass-bg-hover: rgba(255, 255, 255, 0.25);
+    --glass-bg-active: rgba(255, 255, 255, 0.35);
+    --glass-bg-solid: rgba(255, 255, 255, 0.6);
+
+    --glass-border-light: rgba(255, 255, 255, 0.1);
+    --glass-border-base: rgba(255, 255, 255, 0.2);
+    --glass-border-focus: rgba(255, 255, 255, 0.5);
+
+    /* Solid Brand Colors */
+    --glass-primary: #3b82f6;
+    --glass-primary-hover: #2563eb;
+    --glass-danger: #ef4444;
+
+    /* Shadows & Blurs */
+    --glass-blur-sm: blur(4px);
+    --glass-blur-base: blur(12px);
+    --glass-blur-lg: blur(24px);
+
+    --glass-shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --glass-shadow-base: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+    --glass-shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+
+    /* Radii */
+    --glass-radius-sm: 6px;
+    --glass-radius-base: 12px;
+    --glass-radius-lg: 24px;
+    --glass-radius-full: 9999px;
+
+    /* Text */
+    --glass-text-primary: #ffffff;
+    --glass-text-secondary: rgba(255, 255, 255, 0.7);
+    --glass-text-dark: #1f2937;
+
+    /* Transitions */
+    --glass-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base typography for library consumers */
+.glass-ui-root {
+    font-family: inherit;
+    color: var(--glass-text-primary);
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+}
