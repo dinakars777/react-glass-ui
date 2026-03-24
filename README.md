@@ -1,12 +1,20 @@
 # react-glass-ui 💎
 
-> A strictly glassmorphism React UI component library.
+<div align="center">
 
 [![npm version](https://img.shields.io/npm/v/@dinakars777/react-glass-ui?color=CB3837&logo=npm)](https://www.npmjs.com/package/@dinakars777/react-glass-ui)
 [![npm downloads](https://img.shields.io/npm/dm/@dinakars777/react-glass-ui?color=CB3837&logo=npm)](https://www.npmjs.com/package/@dinakars777/react-glass-ui)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18%20%7C%2019-61DAFB?logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript)](https://www.typescriptlang.org)
+
+**[🌐 Interactive Demo & Documentation](https://dinakars777.github.io/react-glass-ui/)**
+
+</div>
+
+---
+
+> A strictly glassmorphism React UI component library.
 
 `react-glass-ui` is a fully typed, heavily animated React component library built around the glassmorphism aesthetic — frosted glass surfaces, glowing borders, and soft depth shadows. Bundled via Vite with zero runtime dependencies.
 
