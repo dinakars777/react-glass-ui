@@ -8,9 +8,9 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/react-glass-ui.es.js",
-      "require": "./dist/react-glass-ui.umd.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/react-glass-ui.umd.js"
     },
     "./style.css": "./dist/style.css"
   },
@@ -32,12 +32,11 @@
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@storybook/addon-essentials": "^8.6.14",
-    "@storybook/addon-interactions": "^8.6.14",
     "@storybook/addon-links": "^8.6.18",
     "@storybook/blocks": "^8.6.14",
     "@storybook/react": "^8.6.18",
     "@storybook/react-vite": "^8.6.18",
-    "@storybook/test": "^8.6.15",
+    "@types/node": "^22.19.19",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
@@ -46,9 +45,9 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "storybook": "^8.6.18",
-    "typescript": "~5.7.2",
+    "typescript": "~5.9.3",
     "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5",
+    "vite": "^6.4.2",
     "vite-plugin-dts": "^4.5.3"
   }
 }
