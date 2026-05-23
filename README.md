@@ -6,7 +6,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@dinakars777/react-glass-ui?color=CB3837&logo=npm)](https://www.npmjs.com/package/@dinakars777/react-glass-ui)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18%20%7C%2019-61DAFB?logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript)](https://www.typescriptlang.org)
 
 **[🌐 Interactive Demo & Documentation](https://dinakars777.github.io/react-glass-ui/)**
 
@@ -52,7 +52,7 @@ import { Button } from '@dinakars777/react-glass-ui';
 
 | Prop | Type | Default |
 |---|---|---|
-| `variant` | `"primary" \| "outline" \| "ghost"` | `"primary"` |
+| `variant` | `"primary" \| "outline" \| "ghost"` | `"outline"` |
 | `size` | `"sm" \| "md" \| "lg"` | `"md"` |
 | `fullWidth` | `boolean` | `false` |
 
